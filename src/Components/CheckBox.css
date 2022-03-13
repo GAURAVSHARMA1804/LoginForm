@@ -1,0 +1,25 @@
+/* HIDE RADIO */
+.Radio { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  .Bhagwaan {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 5px solid rgb(0, 110, 255);
+  }
+  .Bhagwaan{
+      /* max-width: 100%; */
+      width: 250px;
+      max-height: 25vh;
+      margin-left: 130px;
+      
+      
+  }
